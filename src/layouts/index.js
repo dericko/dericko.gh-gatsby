@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import Header from './header'
 import Footer from './footer'
 
+import './styles/global.css'
 import styles from './styles/index.module.css'
 
 type Props = {
