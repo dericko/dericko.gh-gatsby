@@ -10,9 +10,9 @@ export default () => (
       <img className={styles.logo} src={logo} alt="Logo" />
     </Link>
     <div className={styles.links}>
-      <Link>Writing</Link>
-      <Link>Software</Link>
-      <Link>About</Link>
+      <Link to="/writing">Writing</Link>
+      <Link to="/software">Software</Link>
+      <Link to="/about">About</Link>
     </div>
   </header>
 )
