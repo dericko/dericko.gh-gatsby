@@ -4,5 +4,13 @@ module.exports = {
     description: `Hi there, my name's Derick. I'm a student of languages (imperative, functional, figurative, semanto-phonetic).`,
     keywords: `derick, olson, olsonderick, dericko, writing, software`
   },
-  plugins: [`gatsby-plugin-react-helmet`],
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography.js`,
+      },
+    },
+  ],
 }
