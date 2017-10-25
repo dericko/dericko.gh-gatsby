@@ -3,7 +3,6 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 import Header from './header'
-import Footer from './footer'
 
 import './styles/global.css'
 import styles from './styles/index.module.css'
@@ -26,7 +25,6 @@ export default ({ children, data }: Props) => {
       />
       <Header />
       <section className={styles.children}>{children()}</section>
-      <Footer />
     </main>
   )
 }
