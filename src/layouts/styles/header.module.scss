@@ -1,7 +1,9 @@
+@import 'colors';
+
 .header {
-  background: rgb(254, 254, 254);
-  border-top: 5px solid darkslategray;
-  border-bottom: 1px solid rgb(225, 225, 225);
+  background: $snow;
+  border-top: 5px solid $slate;
+  border-bottom: 1px solid $charcoal;
   display: flex;
   align-items: top;
   justify-content: space-between;
@@ -15,7 +17,7 @@
 .links {
   margin-top: 16px;
   & a {
-    color: slategray;
+    color: $slate;
     font-size: medium;
     margin-right: 16px;
   }

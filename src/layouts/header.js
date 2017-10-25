@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import logo from '../assets/logo.png'
 
-import styles from './styles/header.module.css'
+import styles from './styles/header.module.scss'
 
 export default () => (
   <header className={styles.header}>
