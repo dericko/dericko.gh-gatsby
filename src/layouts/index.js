@@ -15,7 +15,7 @@ type Props = {
 export default ({ children, data }: Props) => {
   const { title, description, keywords } = data.site.siteMetadata
   return (
-    <main>
+    <main className={styles.main}>
       <Helmet
         title={title}
         meta={[
