@@ -1,0 +1,51 @@
+@import '../../styles/colors';
+@import '../../styles/sizes';
+
+.container {
+  margin: $xxlarge;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+
+  & img {
+    border-radius: 50%;
+    height: $xxxlarge * 2;
+    width: $xxxlarge * 2;
+  }
+
+  & p {
+    margin-left: $xlarge;
+  }
+}
+
+.links {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & .link {
+    height: $xxxlarge;
+    width: $xxxlarge * 2;
+    margin-left: $large;
+    background: $thunder;
+    color: $snow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:first-child {
+      margin-left: 0;
+    }
+    &:hover {
+      background: $slate;
+      text-decoration: none;
+    }
+  }
+
+}
